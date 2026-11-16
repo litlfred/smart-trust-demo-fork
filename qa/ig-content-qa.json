@@ -1,8 +1,8 @@
 {
   "$schema": "ig-content-qa/v1",
-  "contentDigest": "sha256:47ade498d0c0b9a395d7740f9c812ede079798a1a475f0c25784330d7b234385",
+  "contentDigest": "sha256:283501e15e79329bc74e8659bb29cdd5a605119fe239ea9c5724c7dd05a9765c",
   "items": 2586,
-  "reviewedAt": "2026-11-16T11:54:45.049Z",
+  "reviewedAt": "2026-11-16T11:56:22.694Z",
   "reviewer": {
     "kind": "agent",
     "name": "claude",
