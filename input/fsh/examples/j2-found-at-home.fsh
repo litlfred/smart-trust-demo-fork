@@ -1,4 +1,4 @@
-// J2a and J2b, Village 04, Onesa, 2025-11-18 (T0 + 3 weeks). Vilay adds
+// J2a and J2b, Village 04 (Khamla's village), Onesa, 2025-12-16 (T0 + 7 weeks). Vilay adds
 // Somsak to the Sengmany household offline, scans the two paper DVCs without
 // verifying them, saves the doses as reported by the family, and refers him
 // to the district health center. Everything is queued on her phone and syncs
@@ -21,7 +21,7 @@ Usage: #example
 * member[+].entity = Reference(TrustDemoBounmyPatient)
 * member[+].entity = Reference(TrustDemoKhamlaPatient)
 * member[+].entity = Reference(TrustDemoSomsak)
-* member[=].period.start = "2025-11-18"
+* member[=].period.start = "2025-12-16"
 
 Instance: TrustDemoHouseholdRegistration
 InstanceOf: Questionnaire
@@ -65,7 +65,7 @@ Usage: #example
 * questionnaire = Canonical(TrustDemoHouseholdRegistration)
 * status = #completed
 * subject = Reference(TrustDemoSomsak)
-* authored = "2025-11-18T10:05:00+07:00"
+* authored = "2025-12-16T10:05:00+07:00"
 * author = Reference(TrustDemoVilay)
 * source = Reference(TrustDemoBounmy)
 * item[+].linkId = "household"
@@ -122,7 +122,7 @@ Usage: #example
 * code = $sct#3457005 "Patient referral"
 * code.text = "Verify foreign paper DVCs and map the birth doses to the national schedule"
 * subject = Reference(TrustDemoSomsak)
-* authoredOn = "2025-11-18T10:20:00+07:00"
+* authoredOn = "2025-12-16T10:20:00+07:00"
 * requester = Reference(TrustDemoVilay)
 * performer = Reference(TrustDemoLomaruDhc)
 * reasonCode[+].text = "Unverified foreign vaccination cards presented on a home visit (primarySource false)"

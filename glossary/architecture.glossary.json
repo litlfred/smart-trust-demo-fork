@@ -181,8 +181,8 @@
     },
     {
       "id": "actor-kesaro-clinic-viewer",
-      "prefLabel": "Kesaro primary care clinic viewer, Taifafeki (J4.1)",
-      "definition": "The VHL viewer of a primary care clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection.",
+      "prefLabel": "Kesaro paediatric clinic viewer, Taifafeki (J4.1)",
+      "definition": "The VHL viewer of a paediatric clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection.",
       "altLabel": [
         "Kesaro primary care clinic system"
       ],

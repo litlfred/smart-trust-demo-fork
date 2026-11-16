@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.492Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:27.918Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -126,19 +126,23 @@ msgstr ""
 msgid "<a0>VHLSharer</a0> (HCERT side)"
 msgstr ""
 
+#: docs/journeys.md:41
+msgid "10 weeks old"
+msgstr ""
+
 #: docs/journeys.md:42
-msgid "12 months later"
+msgid "12 months old"
 msgstr ""
 
 #: docs/journeys.md:40
-msgid "3 weeks later"
+msgid "7 weeks old"
 msgstr ""
 
 #: docs/journeys.md:41
-msgid "4 weeks later"
+msgid "A foreign record used for the next vaccine"
 msgstr ""
 
-#: docs/journeys.md:221
+#: docs/journeys.md:223
 #, python-brace-format
 msgid "A wrong passcode is refused, and the attempt is still logged in Onesa ({code0}). If the HCERT does not verify (for example, Country B's DSC is missing from the cached list), there is no digital verification. The clinic names the step and the reason (STT-VER-008), does not follow the VHL, and Dr Anan treats whatever the family can show as he would a paper record."
 msgstr ""
@@ -151,8 +155,8 @@ msgstr ""
 msgid "Actor here"
 msgstr ""
 
-#: docs/journeys.md:211
-msgid "Back where it began, Dr Anan sees Somsak at a primary care clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesan gateway take five steps:"
+#: docs/journeys.md:213
+msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesan gateway take five steps:"
 msgstr ""
 
 #: docs/journeys.md:39
@@ -165,10 +169,6 @@ msgstr ""
 
 #: docs/journeys.md:83
 msgid "birth-clinic-vaccinator, community-health-worker, home-clinic-provider, poc-provider"
-msgstr ""
-
-#: docs/journeys.md:39
-msgid "Born abroad"
 msgstr ""
 
 #: docs/journeys.md:74
@@ -185,6 +185,10 @@ msgstr ""
 
 #: docs/journeys.md:78
 msgid "chw-app"
+msgstr ""
+
+#: docs/journeys.md:42
+msgid "Continuity across a border"
 msgstr ""
 
 #: docs/journeys.md:58
@@ -206,12 +210,8 @@ msgstr ""
 msgid "Country B (country of residence, \"home\") is Onesa. The family lives there (J2, J3, J4.0). On the DEV network it is played by a fictional participant, written XXK."
 msgstr ""
 
-#: docs/journeys.md:241
+#: docs/journeys.md:243
 msgid "Cross-border access and audit (J4.0b, J4.1): what agreements do countries need so that a clinician viewing a record abroad triggers an audit entry in the patient's home country?"
-msgstr ""
-
-#: docs/journeys.md:42
-msgid "Crossing back"
 msgstr ""
 
 #: docs/journeys.md:51
@@ -236,27 +236,27 @@ msgstr ""
 msgid "Each step names the requirements of <a0>smart-trust-tools</a0> it exercises, and the FHIR examples of this guide it produces. The stories are in <a1>{code0}</a1>. Each moment ends with its pain point, what enables it, and the policy point it makes, as the journeys walkthrough presents them."
 msgstr ""
 
-#: docs/journeys.md:146
+#: docs/journeys.md:147
 msgid "Enabler (J2a): The phone reads the card offline, and keeps “what the family told us” clearly separate from “what we have verified”."
 msgstr ""
 
-#: docs/journeys.md:147
+#: docs/journeys.md:148
 msgid "Enabler (J2b): An offline form links the baby to his household immediately; it syncs once the phone finds a signal."
 msgstr ""
 
-#: docs/journeys.md:177
+#: docs/journeys.md:179
 msgid "Enabler (J3a): Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
 msgstr ""
 
-#: docs/journeys.md:178
+#: docs/journeys.md:180
 msgid "Enabler (J3b): Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
 msgstr ""
 
-#: docs/journeys.md:202
+#: docs/journeys.md:204
 msgid "Enabler (J4.0a): A household wallet on one phone, with a separate health summary for each person."
 msgstr ""
 
-#: docs/journeys.md:203
+#: docs/journeys.md:205
 msgid "Enabler (J4.0b): A Verifiable Health Link: the QR holds only a locked pointer; the data stays home until the passcode is given."
 msgstr ""
 
@@ -264,7 +264,7 @@ msgstr ""
 msgid "Enabler: A digitally signed QR card travels with the family — no ID number or database lookup needed."
 msgstr ""
 
-#: docs/journeys.md:229
+#: docs/journeys.md:231
 msgid "Enabler: The record is fetched live from Onesa, viewed without being copied, and an access log is sent home."
 msgstr ""
 
@@ -277,7 +277,7 @@ msgid "FHIR"
 msgstr ""
 
 #: docs/journeys.md:40
-msgid "Found at home"
+msgid "Found and registered"
 msgstr ""
 
 #: docs/journeys.md:80
@@ -304,7 +304,7 @@ msgstr ""
 msgid "How far a clinician can rely on Somsak's record, step by step (the journeys walkthrough's \"follow the record\" ladder):"
 msgstr ""
 
-#: docs/journeys.md:238
+#: docs/journeys.md:240
 msgid "Identity for babies born abroad (J1, J2b): how should national immunization systems handle temporary ids for cross-border infants before civil registration is complete?"
 msgstr ""
 
@@ -326,7 +326,7 @@ msgstr ""
 msgid "Issuer; Trust Network Participant"
 msgstr ""
 
-#: docs/journeys.md:194
+#: docs/journeys.md:196
 msgid "It assembles the IPS and Somsak's DVCs."
 msgstr ""
 
@@ -334,7 +334,7 @@ msgstr ""
 msgid "It builds a DVCMinPreQual payload: STT-PAY-001…005 and STT-PAY-007, with subclaim −6 (STT-SEL-003). No identity document is needed (STT-PAY-005)."
 msgstr ""
 
-#: docs/journeys.md:195
+#: docs/journeys.md:197
 msgid "It encrypts them (STT-VHL-004, STT-VHL-007) behind a passcode-protected manifest with an expiry (STT-VHL-009)."
 msgstr ""
 
@@ -342,7 +342,7 @@ msgstr ""
 msgid "It has XXR's key sign them (STT-COS-002, STT-COS-006), then finishes the HC1 text: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001."
 msgstr ""
 
-#: docs/journeys.md:196
+#: docs/journeys.md:198
 msgid "It issues the link as an HCERT, with the VHL at key 5 (STT-VHL-001, STT-VHL-002), signed with Country B's DSC."
 msgstr ""
 
@@ -350,20 +350,20 @@ msgstr ""
 msgid "It prepares the CWT and the bytes to sign: STT-CWT-001…005, STT-ISS-004."
 msgstr ""
 
-#: docs/journeys.md:216
+#: docs/journeys.md:218
 msgid "It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008)."
 msgstr ""
 
-#: docs/journeys.md:219
+#: docs/journeys.md:221
 msgid "It shows them to Dr Anan: every dose since the birth, viewed, never copied."
 msgstr ""
 
 #: docs/journeys.md:102
-msgid "J1 — Born abroad (Taifafeki, birth day)"
+msgid "J1 — Vaccinated and recorded (Taifafeki, birth day)"
 msgstr ""
 
 #: docs/journeys.md:127
-msgid "J2 — Found at home (Onesa, 3 weeks later)"
+msgid "J2 — Found and registered (Onesa, Somsak is 7 weeks old)"
 msgstr ""
 
 #: docs/journeys.md:40
@@ -371,20 +371,20 @@ msgid "J2 (J2a read the cards, J2b register and refer)"
 msgstr ""
 
 #: docs/journeys.md:129
-msgid "J2a. On a routine visit to Village 04, Vilay finds a newborn the Onesan system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
+msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesan system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
 msgstr ""
 
 #: docs/journeys.md:50
 msgid "J2b"
 msgstr ""
 
-#: docs/journeys.md:135
+#: docs/journeys.md:136
 #, python-brace-format
 msgid "J2b. On the CHW app's newborn form (structured data capture, {code0}) she adds Somsak to the Sengmany household ({code1}), with a temporary id. Bounmy confirms the details as head of household. The app saves the doses read from the cards as reported by the family, not verified ({code2}, {code3}: {code4} false). Vilay refers Somsak to the district health center ({code5}). Everything stays queued on the phone, for 28 days if need be, and syncs when it next reaches a signal."
 msgstr ""
 
-#: docs/journeys.md:151
-msgid "J3 — Made official (Lomaru District Health Center, 4 weeks later)"
+#: docs/journeys.md:152
+msgid "J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)"
 msgstr ""
 
 #: docs/journeys.md:41
@@ -395,7 +395,7 @@ msgstr ""
 msgid "J3a"
 msgstr ""
 
-#: docs/journeys.md:155
+#: docs/journeys.md:156
 #, python-brace-format
 msgid "J3a. Nurse Chanthason opens the referral and scans the QRs. The EHR verifies each DVC offline against that copy (STT-VER-001…009, STT-KID-002), without contacting Taifafeki. Both verify, so it imports them as FHIR {code0}s ({code1}, {code2}) with provenance ({code3}; STT-VER-007, STT-VER-008), replacing the reported doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and the reason, the doses stay unverified, and the nurse decides by national catch-up policy."
 msgstr ""
@@ -404,31 +404,31 @@ msgstr ""
 msgid "J3b"
 msgstr ""
 
-#: docs/journeys.md:164
+#: docs/journeys.md:165
 #, python-brace-format
-msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps Taifafeki's product coding and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due at 6 weeks ({code3}). Khamla leaves with the date ({code4}). Over the year Somsak gets those doses and measles-rubella at 9 months, in Onesa."
+msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps Taifafeki's product coding and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
 msgstr ""
 
-#: docs/journeys.md:182
-msgid "J4.0 — Crossing back: one family, one phone (Onesa, 12 months later)"
+#: docs/journeys.md:184
+msgid "J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)"
 msgstr ""
 
 #: docs/journeys.md:42
 msgid "J4.0 (a wallet, b share link), J4.1"
 msgstr ""
 
-#: docs/journeys.md:184
+#: docs/journeys.md:186
 #, python-brace-format
 msgid "J4.0a. The family plans a trip to Taifafeki. Bounmy's phone holds the family wallet, with a profile for each of them. Somsak's summary ({code0}) shows six doses: two from Taifafeki, four from Onesa."
 msgstr ""
 
-#: docs/journeys.md:190
+#: docs/journeys.md:192
 #, python-brace-format
 msgid "J4.0b. For Somsak, Bounmy shares his record with a 4-digit passcode he can say aloud, valid for 14 days. The portal records his consent ({code0}), then does three things:"
 msgstr ""
 
-#: docs/journeys.md:207
-msgid "J4.1 — Crossing back: a Taifafeki doctor sees the full history (Kesaro, 12 months later)"
+#: docs/journeys.md:209
+msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)"
 msgstr ""
 
 #: docs/journeys.md:27
@@ -451,16 +451,16 @@ msgstr ""
 msgid "Kesaro, Taifafeki"
 msgstr ""
 
-#: docs/journeys.md:106
-msgid "Khamla gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital, away from home. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr ""
-
 #: docs/journeys.md:115
 msgid "Khamla leaves with two paper DVCs. In the demo: the library tests use the WHO guide's own two signed HC1 strings (<a0>QR Code Generation §12</a0>), which verify against the live DEV trust list under the same XXR key. Somsak's DVC payloads are illustrative. Live issuance in the app uses a TEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs do not verify in J3."
 msgstr ""
 
 #: docs/journeys.md:74
 msgid "Khamla SENGMANY (J1–J3), Bounmy SENGMANY (J4)"
+msgstr ""
+
+#: docs/journeys.md:106
+msgid "Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
 msgstr ""
 
 #: docs/journeys.md:49
@@ -471,12 +471,12 @@ msgstr ""
 msgid "Lomaru District Health Center EHR"
 msgstr ""
 
-#: docs/journeys.md:41
-msgid "Made official"
+#: docs/journeys.md:242
+msgid "Matching vaccines across countries (J3b): when a monovalent vaccine is given abroad but the home schedule uses a combination (pentavalent), how should schedule rules count the doses still due?"
 msgstr ""
 
-#: docs/journeys.md:240
-msgid "Matching vaccines across countries (J3b): when a monovalent vaccine is given abroad but the home schedule uses a combination (pentavalent), how should schedule rules count the doses still due?"
+#: docs/journeys.md:245
+msgid "Modules, terms and the canvas"
 msgstr ""
 
 #: docs/journeys.md:37
@@ -508,27 +508,27 @@ msgstr ""
 msgid "Onesan records, link on the phone"
 msgstr ""
 
-#: docs/journeys.md:144
+#: docs/journeys.md:145
 msgid "Pain point (J2a): Without a check, a forged or mistyped card could quietly become an official record."
 msgstr ""
 
-#: docs/journeys.md:145
+#: docs/journeys.md:146
 msgid "Pain point (J2b): Babies born abroad are invisible to the home health system until civil registration catches up — sometimes months later."
 msgstr ""
 
-#: docs/journeys.md:175
+#: docs/journeys.md:177
 msgid "Pain point (J3a): Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly."
 msgstr ""
 
-#: docs/journeys.md:176
+#: docs/journeys.md:178
 msgid "Pain point (J3b): Countries name and package vaccines differently, so doses get missed or repeated."
 msgstr ""
 
-#: docs/journeys.md:200
+#: docs/journeys.md:202
 msgid "Pain point (J4.0a): Many families share one smartphone; one-app-per-person designs leave them out."
 msgstr ""
 
-#: docs/journeys.md:201
+#: docs/journeys.md:203
 msgid "Pain point (J4.0b): Sending photos or PDFs of records leaks data and can’t be verified by the receiver."
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Pain point: The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system."
 msgstr ""
 
-#: docs/journeys.md:228
+#: docs/journeys.md:230
 msgid "Pain point: Without the history, the doctor would repeat vaccines or have to guess."
 msgstr ""
 
@@ -544,27 +544,27 @@ msgstr ""
 msgid "poc-receiver"
 msgstr ""
 
-#: docs/journeys.md:148
+#: docs/journeys.md:149
 msgid "Policy (J2a): Keep a clear line between what families report and what has been verified, and don’t grant trust too early."
 msgstr ""
 
-#: docs/journeys.md:149
+#: docs/journeys.md:150
 msgid "Policy (J2b): Newborns can be registered at home, offline, before civil registration or a national ID exists."
 msgstr ""
 
-#: docs/journeys.md:179
+#: docs/journeys.md:181
 msgid "Policy (J3a): Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
 msgstr ""
 
-#: docs/journeys.md:180
+#: docs/journeys.md:182
 msgid "Policy (J3b): Never overwrite another country’s record: keep the original coding alongside the national one."
 msgstr ""
 
-#: docs/journeys.md:204
+#: docs/journeys.md:206
 msgid "Policy (J4.0a): Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out."
 msgstr ""
 
-#: docs/journeys.md:205
+#: docs/journeys.md:207
 msgid "Policy (J4.0b): Data sovereignty: the record stays in Onesa until the family authorizes someone to open it."
 msgstr ""
 
@@ -572,7 +572,7 @@ msgstr ""
 msgid "Policy: Babies born abroad can get a verifiable vaccine record before they have the host country’s civil registration or a national ID — and registering the birth at home still matters."
 msgstr ""
 
-#: docs/journeys.md:230
+#: docs/journeys.md:232
 msgid "Policy: Continuity of care across borders: each country keeps its own records, with no international patient registry and no vendor lock-in. What is agreed regionally is the data model and the trust list, not a shared copy of the data."
 msgstr ""
 
@@ -580,15 +580,15 @@ msgstr ""
 msgid "Portable: a summary the family can share"
 msgstr ""
 
-#: docs/journeys.md:188
+#: docs/journeys.md:190
 msgid "Precondition, as in J1: Country B's DSC, under Country B's CSCA, is already shared with the GDHCN, the Trust Anchor. That is what lets the clinic in Taifafeki verify the link in J4.1."
 msgstr ""
 
-#: docs/journeys.md:209
+#: docs/journeys.md:211
 msgid "Precondition, as in J3: the DID documents are already loaded. The clinic viewer's trust store is a cached copy of the GDHCN trust list, including Country B's DSC DID document (STT-TRU-001, STT-TRU-002, STT-TRU-005). The clinic refreshes it nightly or hourly, against about weekly at the offline J3 clinic. It does not need to be online to verify: verifying reads the cache and never fetches the list. A DSC published after the last refresh fails the trust-list check (STT-VER-006), naming that reason."
 msgstr ""
 
-#: docs/journeys.md:153
+#: docs/journeys.md:154
 msgid "Precondition: the DID documents are already loaded. Loading them is not a step of this visit. The clinic may be offline all day, so the EHR fetches nothing during it: its trust store holds the GDHCN DEV trust list as it was last refreshed, including XXR's DSC DID document (STT-TRU-001, STT-TRU-002, STT-TRU-005). A clinic with no connection of its own refreshes it about weekly, when the CHW visits the base clinic or district health office, where Country B retrieves the list the GDHCN trust anchor distributes. A DSC published after that refresh is not in the clinic's copy, so its DVC fails the trust-list check (STT-VER-006) until the next refresh."
 msgstr ""
 
@@ -604,7 +604,7 @@ msgstr ""
 msgid "Processes"
 msgstr ""
 
-#: docs/journeys.md:234
+#: docs/journeys.md:236
 msgid "Questions for discussion"
 msgstr ""
 
@@ -660,20 +660,36 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
+#: docs/journeys.md:250
+msgid "The <a0>Country Canvas</a0> is the A3 table canvas (a cover and Sheets 1 to 6) the tables fill in."
+msgstr ""
+
+#: docs/journeys.md:249
+msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its <a1>terms at each step</a1> are also shown on every step of the journeys viewer."
+msgstr ""
+
+#: docs/journeys.md:248
+msgid "The <a0>module × journey map</a0> shows where each workshop module (M1 to M7) meets each step above, and what is technical and what is policy at that point."
+msgstr ""
+
+#: docs/journeys.md:247
+msgid "The <a0>workshop module pages</a0> give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks."
+msgstr ""
+
 #: docs/journeys.md:32
 msgid "The cast: Khamla SENGMANY (mother), Bounmy SENGMANY (father, holds the family phone), Vilay (community health worker, Village 04), Nurse Chanthason (Lomaru District Health Center) and Dr Anan (Taifafeki clinician, at the birth and a year later)."
 msgstr ""
 
-#: docs/journeys.md:236
+#: docs/journeys.md:238
 msgid "The journeys walkthrough closes with four policy questions:"
 msgstr ""
 
-#: docs/journeys.md:217
+#: docs/journeys.md:219
 #, python-brace-format
 msgid "The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
 msgstr ""
 
-#: docs/journeys.md:198
+#: docs/journeys.md:200
 msgid "The QR holds only a pointer and a key: the record stays in Onesa."
 msgstr ""
 
@@ -686,12 +702,12 @@ msgstr ""
 msgid "The story is the one the <a0>journeys walkthrough</a0> tells, moment by moment, with the people, the technical layer and the policy questions (interactive; its source is {code0} in this repository), documented here as a WHO SMART Guidelines L2 DAK and L3 implementation guide. Its FHIR examples are materialized in this guide; the <a1>Journey examples</a1> page maps each moment and device screen to them."
 msgstr ""
 
-#: docs/journeys.md:218
+#: docs/journeys.md:220
 #, python-brace-format
 msgid "The viewer decrypts the IPS and DVCs (STT-VHL-007) ({code0})."
 msgstr ""
 
-#: docs/journeys.md:215
+#: docs/journeys.md:217
 msgid "The viewer verifies the HCERT against Country B's DSC in its copy of the trust list."
 msgstr ""
 
@@ -705,6 +721,10 @@ msgstr ""
 
 #: docs/journeys.md:91
 msgid "User scenarios"
+msgstr ""
+
+#: docs/journeys.md:39
+msgid "Vaccinated and recorded"
 msgstr ""
 
 #: docs/journeys.md:51
@@ -739,7 +759,7 @@ msgid "VHLReceiver"
 msgstr ""
 
 #: docs/journeys.md:40
-msgid "Village 04, Onesa"
+msgid "Village 04 (Khamla's village), Onesa"
 msgstr ""
 
 #: docs/journeys.md:37
@@ -751,7 +771,7 @@ msgstr ""
 msgid "Where"
 msgstr ""
 
-#: docs/journeys.md:239
+#: docs/journeys.md:241
 msgid "Where trust begins (J2a, J3a): why should offline CHW devices store foreign cards as reported, not verified, rather than verify them in the field?"
 msgstr ""
 

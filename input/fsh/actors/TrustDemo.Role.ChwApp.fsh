@@ -21,7 +21,7 @@ The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage
 
 **In the user scenarios**:
 
-- [J2 — Found at home](scenarios.html#j2--found-at-home-onesa-3-weeks-later): J2a A health worker finds the baby — and reads his cards; J2b Registered at home, and referred
+- [J2 — Found and registered](scenarios.html#j2--found-and-registered-onesa-somsak-is-7-weeks-old): J2a A health worker finds the baby — and reads his cards; J2b Registered at home, and referred
 
 **On the device screens**: [S2 Offline QR Scan of the Foreign Cards (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/); [S3 Newborn Registration & Clinic Referral (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/)
 

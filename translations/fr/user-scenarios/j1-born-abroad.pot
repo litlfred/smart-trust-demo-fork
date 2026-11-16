@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j1-born-abroad\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.595Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:38.276Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -127,8 +127,8 @@ msgstr ""
 #: scenarios/user-scenarios/j1-born-abroad.json:32
 msgctxt "step.narrative"
 msgid ""
-"Khamla gives birth to Somsak on 2025-10-28 at Kesaro Provincial\n"
-"Hospital, away from home. He has no Taifafeki identity number. Dr Anan gives the\n"
+"Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28\n"
+"at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the\n"
 "Hep B and BCG birth doses and records them with their WHO PreQual product\n"
 "codes. For each dose, the hospital system does three things:\n"
 "\n"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:4
 msgctxt "title"
-msgid "J1 — Born abroad"
+msgid "J1 — Vaccinated and recorded"
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:4

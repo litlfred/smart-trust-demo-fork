@@ -1,0 +1,408 @@
+{
+  "_comment": "How the DPI-H policy-maker track glossary is used: each term's glossary section and the canvas sheets where it matters most (both from the PDF), and the terms met at each journey step (this repository's reading of the story). Read by tools/workshop/glossary.ts.",
+  "glossary": "glossary/dpi-h-policy-track.glossary.json",
+  "terms": {
+    "digital-public-infrastructure": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "dpi-for-health": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "foundational-dpi": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "reference-architecture": {
+      "section": "Infrastructure and architecture",
+      "sheets": [
+        2
+      ]
+    },
+    "point-of-service-application": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "application-programming-interface": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "client-registry": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "facility-workforce-and-product-registries": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "lifelong-health-record": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "electronic-immunization-registry": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "personal-health-record": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "terminology-service": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "logical-information-model": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "decision-support-engine": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "health-information-exchange": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "health-management-information-system": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "civil-registration-and-vital-statistics": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "interoperability": {
+      "section": "Infrastructure and architecture",
+      "sheets": []
+    },
+    "standard-vs-specification": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "smart-guidelines": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "smart-levels": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "digital-adaptation-kit": {
+      "section": "Standards and specifications",
+      "sheets": [
+        1,
+        3
+      ]
+    },
+    "core-data-set": {
+      "section": "Standards and specifications",
+      "sheets": [
+        3
+      ]
+    },
+    "hl7-fhir": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "implementation-guide": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "profile": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "international-patient-summary": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "international-certificate-of-vaccination-or-prophylaxis": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "international-health-regulations": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "snomed-ct": {
+      "section": "Standards and specifications",
+      "sheets": [
+        3
+      ]
+    },
+    "international-classification-of-diseases": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "logical-observation-identifiers-names-and-codes": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "openehr": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "conformance": {
+      "section": "Standards and specifications",
+      "sheets": []
+    },
+    "verifiable-credential": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "issuer-holder-verifier": {
+      "section": "Trust, credentials and wallets",
+      "sheets": [
+        4
+      ]
+    },
+    "digital-signature": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "public-key-infrastructure": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "trust-anchor": {
+      "section": "Trust, credentials and wallets",
+      "sheets": [
+        4
+      ]
+    },
+    "trust-list": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "global-digital-health-certification-network": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "digital-wallet": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "digital-documentation-of-covid-19-certificates": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "health-certificate-identifier": {
+      "section": "Trust, credentials and wallets",
+      "sheets": [
+        3
+      ]
+    },
+    "consent": {
+      "section": "Trust, credentials and wallets",
+      "sheets": []
+    },
+    "sandbox": {
+      "section": "Testing and convergence",
+      "sheets": []
+    },
+    "test-suite": {
+      "section": "Testing and convergence",
+      "sheets": []
+    },
+    "interoperability-lab": {
+      "section": "Testing and convergence",
+      "sheets": []
+    },
+    "connectathon": {
+      "section": "Testing and convergence",
+      "sheets": [
+        5
+      ]
+    },
+    "convergence-workshop": {
+      "section": "Testing and convergence",
+      "sheets": []
+    },
+    "openfn": {
+      "section": "Testing and convergence",
+      "sheets": []
+    },
+    "digital-health-strategy": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "blueprint": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "costed-investment-plan": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "digital-implementation-investment-guide": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "technical-working-group": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "decision-rights": {
+      "section": "Governance, planning and financing",
+      "sheets": [
+        4
+      ]
+    },
+    "procurement-conditions": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "total-cost-of-ownership": {
+      "section": "Governance, planning and financing",
+      "sheets": [
+        6
+      ]
+    },
+    "vendor-lock-in": {
+      "section": "Governance, planning and financing",
+      "sheets": []
+    },
+    "expanded-programme-on-immunization": {
+      "section": "Immunization",
+      "sheets": []
+    },
+    "adverse-event-following-immunization": {
+      "section": "Immunization",
+      "sheets": []
+    },
+    "dose-number-and-series": {
+      "section": "Immunization",
+      "sheets": []
+    },
+    "batch-number": {
+      "section": "Immunization",
+      "sheets": []
+    },
+    "logistics-management-information-system": {
+      "section": "Immunization",
+      "sheets": []
+    },
+    "who": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "itu": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "aehin": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "adb": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "world-bank": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "csiro": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "unicc": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "unicef": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "moph-thailand": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "hl7": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "snomed-international": {
+      "section": "Organisations",
+      "sheets": []
+    },
+    "openehr-foundation": {
+      "section": "Organisations",
+      "sheets": []
+    }
+  },
+  "steps": {
+    "J1": [
+      "electronic-immunization-registry",
+      "client-registry",
+      "facility-workforce-and-product-registries",
+      "dose-number-and-series",
+      "batch-number",
+      "verifiable-credential",
+      "digital-signature",
+      "public-key-infrastructure",
+      "issuer-holder-verifier",
+      "health-certificate-identifier",
+      "international-certificate-of-vaccination-or-prophylaxis",
+      "consent"
+    ],
+    "J2a": [
+      "point-of-service-application",
+      "verifiable-credential",
+      "digital-signature",
+      "core-data-set"
+    ],
+    "J2b": [
+      "client-registry",
+      "civil-registration-and-vital-statistics",
+      "point-of-service-application",
+      "facility-workforce-and-product-registries",
+      "consent",
+      "interoperability"
+    ],
+    "J3a": [
+      "trust-list",
+      "global-digital-health-certification-network",
+      "trust-anchor",
+      "public-key-infrastructure",
+      "digital-signature",
+      "issuer-holder-verifier",
+      "verifiable-credential"
+    ],
+    "J3b": [
+      "terminology-service",
+      "core-data-set",
+      "logical-information-model",
+      "snomed-ct",
+      "decision-support-engine",
+      "smart-guidelines",
+      "digital-adaptation-kit",
+      "dose-number-and-series",
+      "expanded-programme-on-immunization"
+    ],
+    "J4.0a": [
+      "digital-wallet",
+      "personal-health-record",
+      "lifelong-health-record",
+      "consent"
+    ],
+    "J4.0b": [
+      "international-patient-summary",
+      "hl7-fhir",
+      "implementation-guide",
+      "profile",
+      "consent",
+      "procurement-conditions",
+      "application-programming-interface"
+    ],
+    "J4.1": [
+      "global-digital-health-certification-network",
+      "trust-list",
+      "international-patient-summary",
+      "health-information-exchange",
+      "lifelong-health-record",
+      "consent"
+    ]
+  }
+}
