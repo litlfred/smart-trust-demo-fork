@@ -113,7 +113,7 @@ msgstr "Dr Anan (clinicien, Kesaro, Taifafeki)"
 
 #: input/pagecontent/personas.md:43
 msgid "Dr. Anan (Taifafeki clinician · birth & follow-up, Taifafeki)"
-msgstr "Dr Anan (clinicien thaï · naissance et suivi, Taifafeki)"
+msgstr "Dr Anan (clinicien de Taifafeki · naissance et suivi, Taifafeki)"
 
 #: input/pagecontent/personas.md:30
 msgid "External actors"
@@ -161,7 +161,7 @@ msgstr "Objectif : recevoir chaque vaccin dont il a besoin, une seule fois, où 
 
 #: input/pagecontent/personas.md:47
 msgid "Goal: Give a non-Taifafeki baby proper care, at birth and when he returns."
-msgstr "Objectif : prodiguer des soins appropriés à un bébé non thaï, à la naissance et à son retour."
+msgstr "Objectif : prodiguer des soins appropriés à un bébé qui n’est pas ressortissant de Taifafeki, à la naissance et à son retour."
 
 #: input/pagecontent/personas.md:71
 msgid "Goal: Have Somsak's care recognized at home, without starting over."
@@ -229,7 +229,7 @@ msgstr "Persona pour J3 : l’infirmière du centre de santé du district de Lom
 
 #: input/pagecontent/personas.md:45
 msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "Persona : un clinicien thaï de Kesaro qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique de soins primaires, en lisant son dossier au moyen du VHL (J4.1). Fictif."
+msgstr "Persona : un clinicien de Taifafeki de Kesaro qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique de soins primaires, en lisant son dossier au moyen du VHL (J4.1). Fictif."
 
 #: input/pagecontent/personas.md:53
 msgid "Persona: Somsak's father, 29, head of the household in Onesa, who holds the family's one shared phone (J4). Creates Somsak's passcode-protected VHL (J4.0) and says the passcode aloud at the clinic (J4.1). Fictional."
@@ -317,7 +317,7 @@ msgstr "Les personnes des parcours"
 
 #: input/pagecontent/personas.md:77
 msgid "The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
-msgstr "Le sujet de chaque parcours : un petit garçon d’Onesa né le 2025-10-28 à l’hôpital provincial de Kesaro, Taifafeki (Pays A), alors que sa famille vit à Onesa (Pays B). N’a pas de numéro d’identité thaï ; enregistré à Onesa avec un identifiant temporaire par le CHW (J2). Ne détient aucun appareil et agit par l’intermédiaire de ses parents. L’histoire est celle de la présentation guidée de l’atelier VaxLink (fredhersch/vaxlink). Fictif."
+msgstr "Le sujet de chaque parcours : un petit garçon d’Onesa né le 2025-10-28 à l’hôpital provincial de Kesaro, Taifafeki (Pays A), alors que sa famille vit à Onesa (Pays B). N’a pas de numéro d’identité de Taifafeki ; enregistré à Onesa avec un identifiant temporaire par le CHW (J2). Ne détient aucun appareil et agit par l’intermédiaire de ses parents. L’histoire est celle de la présentation guidée de l’atelier VaxLink (fredhersch/vaxlink). Fictif."
 
 #: input/pagecontent/personas.md:4
 #, python-brace-format

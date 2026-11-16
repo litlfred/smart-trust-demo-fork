@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "Russian translation of the ArchiMate pages (model, views, element and relationship pages, drawings). Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 1384/1384.",
+  "label": "trans:ru/archimate",
+  "locale": "ru",
+  "sourceFile": "translations/ru/archimate.pot",
+  "potFile": "translations/ru/archimate.pot",
+  "poFile": "translations/ru/archimate.po",
+  "status": {
+    "locale": "ru",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:46:15Z",
+    "generator": "agent translation (smart-trust-demo ru session, archimate)"
+  },
+  "coverage": {
+    "translated": 1384,
+    "total": 1384,
+    "pct": 100
+  }
+}

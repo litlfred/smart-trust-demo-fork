@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j2-found-at-home\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.600Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:38.279Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -213,7 +213,8 @@ msgstr ""
 #: scenarios/user-scenarios/j2-found-at-home.json:25
 msgctxt "step.narrative"
 msgid ""
-"On a routine visit to Village 04, Vilay finds a newborn the Onesan\n"
+"Khamla has brought Somsak home to Onesa. On a routine visit to Village 04,\n"
+"Khamla's village, Vilay finds a newborn the Onesan\n"
 "system does not know exists. Her phone has had no signal for weeks. Khamla\n"
 "shows the two cards. The CHW app reads them with **read-unverified**\n"
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
@@ -361,7 +362,7 @@ msgstr ""
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 msgctxt "step.when"
-msgid "T0 + 3 weeks"
+msgid "T0 + 7 weeks"
 msgstr ""
 
 #: scenarios/user-scenarios/j2-found-at-home.json:23
@@ -372,7 +373,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
 msgctxt "title"
-msgid "J2 — Found at home"
+msgid "J2 — Found and registered"
 msgstr ""
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
@@ -382,7 +383,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j2-found-at-home.json:13
 msgctxt "when"
-msgid "3 weeks later"
+msgid "Somsak is 7 weeks old"
 msgstr ""
 
 #: scenarios/user-scenarios/j2-found-at-home.json:14

@@ -21,7 +21,7 @@ The hospital system abroad that issues a DVC per dose with the HCERT library: th
 
 **In the user scenarios**:
 
-- [J1 — Born abroad](scenarios.html#j1--born-abroad-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
+- [J1 — Vaccinated and recorded](scenarios.html#j1--vaccinated-and-recorded-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/)
 

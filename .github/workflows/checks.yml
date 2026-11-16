@@ -62,6 +62,12 @@ jobs:
         run: |
           bun run cat-harness-tools/scripts/check-journey-refs.ts --json > "$RUNNER_TEMP/journey-refs.json" || true
           python3 -c "import json,sys;r=json.load(open(sys.argv[1]));bad=r['findings']+[f for f in r['couldNotDetermine'] if 'built at publish' not in f['message']];[print('✗',f['file'],f['at'],f['message']) for f in bad];sys.exit(1 if bad or r.get('undetermined') else 0)" "$RUNNER_TEMP/journey-refs.json"
+      - name: The module × journey map is current (input/pagecontent/module-journey-map.md)
+        run: bun tools/workshop/module-journey-map.ts --check
+      - name: The glossary page and its per-step resources are current (input/pagecontent/glossary.md)
+        run: bun tools/workshop/glossary.ts --check
+      - name: The workshop module pages are current (input/pagecontent/workshop*.md)
+        run: bun tools/workshop/module-pages.ts --check
       - name: The translation templates are current (translations/)
         # One extraction for every translator: BPMN by the harness's
         # translate-bpmn, the pages by tools/translation/pages-pot.ts (the

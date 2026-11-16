@@ -69,7 +69,7 @@ msgstr "Рождается и в течение нескольких часов 
 #: scenarios/user-scenarios/j1-born-abroad.json:38
 msgctxt "step.experiences.feeling"
 msgid "“He isn’t Taifafeki, but he still needs a record he can take home.”"
-msgstr "«Он не таец, но ему всё равно нужна запись, которую можно увезти домой»."
+msgstr "«Он не гражданин Тайфафеки, но ему всё равно нужна запись, которую можно увезти домой»."
 
 #: scenarios/user-scenarios/j1-born-abroad.json:44
 msgctxt "step.experiences.feeling"

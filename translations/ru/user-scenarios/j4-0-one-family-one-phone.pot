@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j4-0-one-family-one-phone\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.607Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:38.283Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
 msgctxt "title"
-msgid "J4.0 — Crossing back: one family, one phone"
+msgid "J4.0 — Continuity across a border: one family, one phone"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4

@@ -218,7 +218,7 @@ msgstr "J3a. L’infirmière Chanthason ouvre l’orientation et scanne les code
 #: input/pagecontent/scenarios.md:97
 #, python-brace-format
 msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps Taifafeki's product coding and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due at 6 weeks ({code3}). Khamla leaves with the date ({code4}). Over the year Somsak gets those doses and measles-rubella at 9 months, in Onesa."
-msgstr "J3b. Le produit thaï contre l’hépatite B ne correspond à rien dans le calendrier national. Le DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier, à partir de la table de correspondance nationale ({code0}). Pour le produit contre l’hépatite B, la table ne contient aucune entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il s’agit de la dose à la naissance du calendrier ({code1}), et sa décision est ajoutée à la table pour la clinique suivante. Le calendrier ({code2}) s’exécute alors : les doses à la naissance sont comptabilisées, et le pentavalent 1, le VPOb 1 et le PCV 1 sont dus à 6 semaines ({code3}). Khamla repart avec la date ({code4}). Au cours de l’année, Somsak reçoit ces doses ainsi que le vaccin rougeole-rubéole à 9 mois, à Onesa."
+msgstr "J3b. Le produit de Taifafeki contre l’hépatite B ne correspond à rien dans le calendrier national. Le DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier, à partir de la table de correspondance nationale ({code0}). Pour le produit contre l’hépatite B, la table ne contient aucune entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il s’agit de la dose à la naissance du calendrier ({code1}), et sa décision est ajoutée à la table pour la clinique suivante. Le calendrier ({code2}) s’exécute alors : les doses à la naissance sont comptabilisées, et le pentavalent 1, le VPOb 1 et le PCV 1 sont dus à 6 semaines ({code3}). Khamla repart avec la date ({code4}). Au cours de l’année, Somsak reçoit ces doses ainsi que le vaccin rougeole-rubéole à 9 mois, à Onesa."
 
 #: input/pagecontent/scenarios.md:115
 msgid "J4.0 — Crossing back: one family, one phone (Onesa, 12 months later)"
@@ -236,7 +236,7 @@ msgstr "J4.0b. Pour Somsak, Bounmy partage son dossier avec un code d’accès �
 
 #: input/pagecontent/scenarios.md:140
 msgid "J4.1 — Crossing back: a Taifafeki doctor sees the full history (Kesaro, 12 months later)"
-msgstr "J4.1 — Le retour : un médecin thaï voit l’historique complet (Kesaro, 12 mois plus tard)"
+msgstr "J4.1 — Le retour : un médecin de Taifafeki voit l’historique complet (Kesaro, 12 mois plus tard)"
 
 #: input/pagecontent/scenarios.md:19
 msgid "Keep the foreign vaccine code and add our schedule code beside it, deciding myself when there is no match"
@@ -244,7 +244,7 @@ msgstr "Conserver le code étranger du vaccin et ajouter à côté notre code de
 
 #: input/pagecontent/scenarios.md:39
 msgid "Khamla gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital, away from home. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr "Khamla donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro, loin de chez elle. Il n’a pas de numéro d’identité thaï. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :"
+msgstr "Khamla donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro, loin de chez elle. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :"
 
 #: input/pagecontent/scenarios.md:21
 msgid "Know the record I read abroad came from the child's home country and was not altered"
@@ -284,7 +284,7 @@ msgstr "Point de friction (J4.0b) : l’envoi de photos ou de PDF des dossiers e
 
 #: input/pagecontent/scenarios.md:56
 msgid "Pain point: The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system."
-msgstr "Point de friction : le bébé n’a pas de numéro d’identité thaï, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital thaï."
+msgstr "Point de friction : le bébé n’a pas de numéro d’identité de Taifafeki, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital de Taifafeki."
 
 #: input/pagecontent/scenarios.md:161
 msgid "Pain point: Without the history, the doctor would repeat vaccines or have to guess."
@@ -305,7 +305,7 @@ msgstr "Politique (J2b) : les nouveau-nés peuvent être enregistrés au domicil
 
 #: input/pagecontent/scenarios.md:112
 msgid "Policy (J3a): Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
-msgstr "Politique (J3a) : la confiance est décentralisée : une clinique d’Onesa vérifie elle-même une signature thaïe, sans contacter Taifafeki."
+msgstr "Politique (J3a) : la confiance est décentralisée : une clinique d’Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki."
 
 #: input/pagecontent/scenarios.md:113
 msgid "Policy (J3b): Never overwrite another country’s record: keep the original coding alongside the national one."

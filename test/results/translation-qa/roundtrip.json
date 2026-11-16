@@ -39,7 +39,23 @@
     "drifts": [
       "optional: 'block' read back as 'box' in the journeys-viewer-parity README",
       "not drift: tense/modal in purpose clauses (Russian чтобы), uninflected acronyms"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1959,
+      "drifts": 12,
+      "fixed": 12,
+      "noise": 23,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1219,
+      "drifts": 21,
+      "fixed": 21,
+      "noise": 68,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   },
   "es": {
     "verdict": "PASS",
@@ -51,7 +67,23 @@
     "drifts": [
       "'registry abroad' read back as 'record': fixed",
       "'base clinic' read back as 'referral clinic': fixed (clínica de base)"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1958,
+      "drifts": 17,
+      "fixed": 17,
+      "noise": 25,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1214,
+      "drifts": 14,
+      "fixed": 14,
+      "noise": 21,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   },
   "fr": {
     "verdict": "PASS",
@@ -63,7 +95,23 @@
     "drifts": [
       "'skill' (the harness node) read back as 'competency': now « skill (compétence d'agent) », consistent with bootstrap's fixed term Compétence",
       "indicator operators COUNT/WHERE/AND restored verbatim"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1936,
+      "drifts": 8,
+      "fixed": 8,
+      "noise": 70,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1195,
+      "drifts": 10,
+      "fixed": 10,
+      "noise": 40,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   },
   "zh": {
     "verdict": "PASS",
@@ -74,6 +122,22 @@
     "summary": "0 claim drift; 1 minor term, fixed",
     "drifts": [
       "'workforce' read back as 'persons': fixed (卫生人力)"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1974,
+      "drifts": 7,
+      "fixed": 7,
+      "noise": 16,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1217,
+      "drifts": 22,
+      "fixed": 22,
+      "noise": 74,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   }
 }

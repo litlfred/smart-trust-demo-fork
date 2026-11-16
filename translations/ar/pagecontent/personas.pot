@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.601Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:28.044Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -185,7 +185,7 @@ msgid "Issuer of the birth-dose DVCs (SMART Trust Issuer)"
 msgstr ""
 
 #: input/pagecontent/personas.md:28
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
 msgstr ""
 
 #: input/pagecontent/personas.md:23
@@ -245,7 +245,7 @@ msgid "Persona for J3: the nurse at Lomaru District Health Center in Onesa (Coun
 msgstr ""
 
 #: input/pagecontent/personas.md:46
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
+msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
 msgstr ""
 
 #: input/pagecontent/personas.md:54
@@ -253,7 +253,7 @@ msgid "Persona: Somsak's father, 29, head of the household in Onesa, who holds t
 msgstr ""
 
 #: input/pagecontent/personas.md:70
-msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
+msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
 msgstr ""
 
 #: input/pagecontent/personas.md:27
