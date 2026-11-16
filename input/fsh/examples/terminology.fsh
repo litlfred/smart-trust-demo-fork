@@ -48,7 +48,7 @@ Description: "Every code of TrustDemoOnesaEpiSchedule: the target of the nationa
 Instance: TrustDemoProductToOnesaEpi
 InstanceOf: ConceptMap
 Title: "J3 map: vaccine product to national schedule dose"
-Description: "The national map the clinic EHR uses in J3 to add the schedule code beside the issuer's product code, which it never replaces. The Hep B product had no entry until Nurse Chanthason confirmed its equivalence on 2025-11-25 (see TrustDemoJ3Adjudication); her decision is recorded here so the next clinic need not make it again."
+Description: "The national map the clinic EHR uses in J3 to add the schedule code beside the issuer's product code, which it never replaces. The Hep B product had no entry until Nurse Chanthason confirmed its equivalence on 2026-01-06 (see TrustDemoJ3Adjudication); her decision is recorded here so the next clinic need not make it again."
 Usage: #definition
 * url = "http://smart.who.int/trust-demo/ConceptMap/TrustDemoProductToOnesaEpi"
 * name = "TrustDemoProductToOnesaEpi"
@@ -61,7 +61,7 @@ Usage: #definition
 * group[=].element[+].code = #vp-hepb-peds-monovalent
 * group[=].element[=].target[+].code = #XXK-EPI-HEPB-BD
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[=].comment = "Added from the nurse's adjudication at Lomaru District Health Center, 2025-11-25: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose."
+* group[=].element[=].target[=].comment = "Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose."
 * group[=].element[+].code = #vp-bcg-freeze-dried
 * group[=].element[=].target[+].code = #XXK-EPI-BCG
 * group[=].element[=].target[=].equivalence = #equivalent

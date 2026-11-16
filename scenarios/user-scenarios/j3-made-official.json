@@ -1,14 +1,14 @@
 {
   "$schema": "user-scenario/0.3.0",
   "id": "j3-made-official",
-  "title": "J3 — Made official",
+  "title": "J3 — A foreign record used for the next vaccine",
   "description": "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule.",
   "personas": [
     "chanthason",
     "khamla-sengmany"
   ],
   "follows": "j2-found-at-home",
-  "when": "4 weeks later",
+  "when": "Somsak is 10 weeks old",
   "where": "Lomaru District Health Center",
   "country": "Onesa",
   "trustLadder": "record-trust",
@@ -17,7 +17,7 @@
       "id": "J3a",
       "title": "The clinic confirms the cards are genuine",
       "headline": "Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki.",
-      "when": "T0 + 4 weeks",
+      "when": "T0 + 10 weeks",
       "where": "Lomaru District Health Center",
       "touchpoint": "Clinic tablet (verification)",
       "preconditions": [
@@ -186,15 +186,15 @@
       "id": "J3b",
       "title": "Taifafeki vaccines are fitted to the Onesan schedule",
       "headline": "The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next.",
-      "when": "T0 + 4 weeks",
+      "when": "T0 + 10 weeks",
       "where": "Lomaru District Health Center",
       "touchpoint": "Clinic tablet (vaccine matching + schedule)",
-      "narrative": "The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps Taifafeki's product coding and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\nat 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\nmeasles-rubella at 9 months, in Onesa.",
+      "narrative": "The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps Taifafeki's product coding and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\nChanthason gives them that day. Khamla leaves with the date of the next doses\n(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\nmeasles-rubella at 9 months, in Onesa.",
       "lead": "chanthason",
       "experiences": [
         {
           "actor": "chanthason",
-          "doing": "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines.",
+          "doing": "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines.",
           "feeling": "“Different name, same vaccine — I can make that call.”",
           "emotion": 1
         },
@@ -254,7 +254,7 @@
         },
         {
           "block": "plandefinition",
-          "role": "Onesan schedule logic calculates the 6-week doses"
+          "role": "Onesan schedule logic finds the 6-week doses overdue"
         },
         {
           "block": "ohs-fhir-sdk",
@@ -313,8 +313,8 @@
         },
         {
           "resource": "Task / Appointment",
-          "change": "6-week pentavalent booked",
-          "why": "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back.",
+          "change": "Overdue 6-week doses given",
+          "why": "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones.",
           "examples": [
             "PlanDefinition/TrustDemoOnesaInfantSchedule",
             "Task/TrustDemoJ3Reminder"

@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "Chinese translation of the ArchiMate pages (model, views, element and relationship pages, drawings). Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 1384/1384.",
+  "label": "trans:zh/archimate",
+  "locale": "zh",
+  "sourceFile": "translations/zh/archimate.pot",
+  "potFile": "translations/zh/archimate.pot",
+  "poFile": "translations/zh/archimate.po",
+  "status": {
+    "locale": "zh",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:45:37Z",
+    "generator": "agent translation (smart-trust-demo zh session, archimate)"
+  },
+  "coverage": {
+    "translated": 1384,
+    "total": 1384,
+    "pct": 100
+  }
+}

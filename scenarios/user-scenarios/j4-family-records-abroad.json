@@ -1,7 +1,7 @@
 {
   "$schema": "user-scenario/0.4.0",
   "id": "j4-family-records-abroad",
-  "title": "J4 — One family, one phone, a history abroad",
+  "title": "J4 — Continuity across a border",
   "description": "The family's records go on one shared phone as Verifiable Health Links (J4.0), and a year later a doctor back in Taifafeki reads the whole history from Onesa (J4.1). One chapter of the walkthrough, two BPMN processes, so two sub-journeys.",
   "parts": [
     {

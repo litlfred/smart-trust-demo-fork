@@ -21,12 +21,12 @@ The person the records are about: the child whose doses are given, signed, regis
 
 **In the user scenarios**:
 
-- [J1 — Born abroad](scenarios.html#j1--born-abroad-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
-- [J2 — Found at home](scenarios.html#j2--found-at-home-onesa-3-weeks-later): J2b Registered at home, and referred
-- [J4.1 — Crossing back: a Taifafeki doctor sees the full history](scenarios.html#j41--crossing-back-a-taifafeki-doctor-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
+- [J1 — Vaccinated and recorded](scenarios.html#j1--vaccinated-and-recorded-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
+- [J2 — Found and registered](scenarios.html#j2--found-and-registered-onesa-somsak-is-7-weeks-old): J2b Registered at home, and referred
+- [J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history](scenarios.html#j41--continuity-across-a-border-a-taifafeki-paediatrician-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/); [S3 Newborn Registration & Clinic Referral (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/); [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M2 The reference architecture and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 Our first move, what it costs, and what we ask for](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M2 The reference architecture and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 First move and the investment required](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"

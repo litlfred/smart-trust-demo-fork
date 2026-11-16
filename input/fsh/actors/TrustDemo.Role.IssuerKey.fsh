@@ -21,12 +21,12 @@ The DSC private key of the issuing participant, in an HSM, cloud KMS or Android 
 
 **In the user scenarios**:
 
-- [J1 — Born abroad](scenarios.html#j1--born-abroad-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
-- [J4.0 — Crossing back: one family, one phone](scenarios.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
+- [J1 — Vaccinated and recorded](scenarios.html#j1--vaccinated-and-recorded-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
+- [J4.0 — Continuity across a border: one family, one phone](scenarios.html#j40--continuity-across-a-border-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/); [S7 VHL QR Display & Passcode Protection (Bounmy's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
 
 **Lanes and tasks in the business processes**:
 

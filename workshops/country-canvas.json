@@ -1,0 +1,35 @@
+{
+  "_comment": "The Country Canvas (input/images/country-canvas-a3.docx, the owner's A3 canvas, 2026-11-16) sheet by sheet: what each part asks and how long it takes, for the module pages (tools/workshop/module-pages.ts). preview is the page image under input/images/country-canvas/.",
+  "docx": "country-canvas-a3.docx",
+  "pdf": "country-canvas-a3.pdf",
+  "sheets": [
+    {"id": "sheet-1", "n": 1, "title": "Our journey and where it breaks", "preview": "country-canvas/page-2.png", "parts": [
+      {"module": "M1", "title": "Our use case", "minutes": 8, "what": "A child vaccinated in ___ should be able to ___ in ___."},
+      {"module": "M1", "title": "The journey", "minutes": 25, "what": "Four touchpoints, each rated Works, Partly or Breaks for your country today; a ★ where it breaks hardest."},
+      {"module": "M1", "title": "The capabilities this journey needs", "minutes": 7, "what": "Seven capabilities, ticked Needed, with the touchpoints that use them; they carry onto Sheet 2."}
+    ]},
+    {"id": "sheet-2", "n": 2, "title": "Our architecture today", "preview": "country-canvas/page-3.png", "parts": [
+      {"module": "M2", "title": "The architecture map", "minutes": null, "what": "Every DPI-H reference architecture block: the system used today and E, P or A; IMMZ marks the blocks this use case touches."},
+      {"module": "M2", "title": "Standards, disagreements, regional blocks", "minutes": null, "what": "Standards used today, where the table disagreed, and which starred blocks could be shared regionally (carries to Sheet 5)."}
+    ]},
+    {"id": "sheet-3", "n": 3, "title": "Core data set, terminology and specifications", "preview": "country-canvas/page-4.png", "parts": [
+      {"module": "M3", "title": "Data elements", "minutes": 20, "what": "15 immunization DAK elements, each captured Same, Differently or Not at all."},
+      {"module": "M3", "title": "Our terminology and specifications", "minutes": 5, "what": "SNOMED CT, ICD, LOINC, the terminology service, the core data set, the national FHIR IG, the IPS and the SMART immunization DAK."},
+      {"module": "M3", "title": "Who owns it, and what we buy", "minutes": 5, "what": "Who would own the core data set and run the terminology service; what goes into the next procurement."}
+    ]},
+    {"id": "sheet-4", "n": 4, "title": "Trust, and who decides", "preview": "country-canvas/page-5.png", "parts": [
+      {"module": "M4", "title": "Trust: who signs, who holds it, who checks it", "minutes": 18, "what": "Issuer, credential, verifier; who would hold the national trust anchor; what the country already has. Name, don't decide."},
+      {"module": "M5", "title": "Governance: who holds the four decisions", "minutes": 30, "what": "Architecture authority, standards mandate, core data set custodian, trust anchor: the holder and its formal basis. UNASSIGNED is a finding. Then the legal basis and the levers you can pull."}
+    ]},
+    {"id": "sheet-5", "n": 5, "title": "Doing it together", "preview": "country-canvas/page-6.png", "parts": [
+      {"module": "M6", "title": "Three propositions", "minutes": 25, "what": "A, a joint data model; B, shared testing and an interoperability lab; C, a regional connect-a-thon within 12 months."},
+      {"module": "M6", "title": "Our nomination", "minutes": 35, "what": "The component or artefact to do once, regionally; why together; what the country contributes; the first regional step."}
+    ]},
+    {"id": "sheet-6", "n": 6, "title": "First move and the investment required", "preview": "country-canvas/page-7.png", "parts": [
+      {"module": "M7", "title": "Our top national priority", "minutes": 8, "what": "One component, why this one, the biggest gap or risk."},
+      {"module": "M7", "title": "Our 12-month action", "minutes": 10, "what": "Two lines, an owner (institution), and what it depends on."},
+      {"module": "M7", "title": "What it costs, and who could fund it", "minutes": 10, "what": "Cost drivers, not unit costs; funding source; support needed."},
+      {"module": "M7", "title": "Regional commitment and the one gap", "minutes": 15, "what": "From the Sheet 5 nomination; and the one gap referred for follow-up."}
+    ]}
+  ]
+}

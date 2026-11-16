@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j3-made-official\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.604Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:38.281Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
-msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
+msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:203
@@ -94,11 +94,6 @@ msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:316
-msgctxt "step.fhirChanges.change"
-msgid "6-week pentavalent booked"
-msgstr ""
-
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
@@ -112,6 +107,11 @@ msgstr ""
 #: scenarios/user-scenarios/j3-made-official.json:294
 msgctxt "step.fhirChanges.change"
 msgid "Onesan EPI code added; PreQual code kept"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:316
+msgctxt "step.fhirChanges.change"
+msgid "Overdue 6-week doses given"
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:136
@@ -136,7 +136,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
+msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:295
@@ -212,9 +212,10 @@ msgid ""
 "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
 "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
 "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
-"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
-"at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
-"(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
+"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+"6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+"Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+"(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
 msgstr ""
 
@@ -325,7 +326,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
-msgid "Onesan schedule logic calculates the 6-week doses"
+msgid "Onesan schedule logic finds the 6-week doses overdue"
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:253
@@ -381,7 +382,7 @@ msgstr ""
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
-msgid "T0 + 4 weeks"
+msgid "T0 + 10 weeks"
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:12
@@ -392,7 +393,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
-msgid "J3 — Made official"
+msgid "J3 — A foreign record used for the next vaccine"
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:4
@@ -402,7 +403,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
-msgid "4 weeks later"
+msgid "Somsak is 10 weeks old"
 msgstr ""
 
 #: scenarios/user-scenarios/j3-made-official.json:12
