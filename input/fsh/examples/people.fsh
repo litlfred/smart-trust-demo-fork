@@ -127,10 +127,10 @@ Usage: #example
 
 Instance: TrustDemoKesaroClinic
 InstanceOf: Organization
-Title: "Kesaro primary care clinic, Taifafeki (J4.1)"
+Title: "Kesaro paediatric clinic, Taifafeki (J4.1)"
 Description: "Where Dr Anan sees Somsak a year after his birth, back in Country A."
 Usage: #example
-* name = "Kesaro primary care clinic (demonstrator)"
+* name = "Kesaro paediatric clinic (demonstrator)"
 * contact.address.country = "XXR"
 
 Instance: TrustDemoChwApp
@@ -169,7 +169,7 @@ Usage: #example
 
 Instance: TrustDemoClinicViewer
 InstanceOf: Device
-Title: "VHL viewer, Kesaro primary care clinic"
+Title: "VHL viewer, Kesaro paediatric clinic"
 Description: "The point-of-care system that verifies the VHL, fetches the manifest by ITI-YY5 after the passcode is entered, and decrypts the records for viewing (J4.1): a VHL Receiver."
 Usage: #example
 * deviceName[+].name = "Kesaro clinic VHL viewer"

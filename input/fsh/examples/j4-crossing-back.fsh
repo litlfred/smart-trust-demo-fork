@@ -1,7 +1,7 @@
 // J4.0 and J4.1, 12 months on. The family plans a trip to Taifafeki. On
 // Bounmy's phone, the family wallet holds a profile for each of them; for
 // Somsak he shares a passcode-protected VHL valid for 14 days (J4.0). At a
-// primary care clinic in Kesaro, Dr Anan scans it, Bounmy says the
+// paediatric clinic in Kesaro, Dr Anan scans it, Bounmy says the
 // passcode, and the viewer fetches Somsak's IPS from Onesa; the Onesan gateway
 // logs the access at home (J4.1). The Bundle follows the IPS document shape
 // (Composition, LOINC 60591-5) and carries the consent it is shared under

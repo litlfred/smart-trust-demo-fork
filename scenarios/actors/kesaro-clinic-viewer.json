@@ -1,8 +1,8 @@
 {
   "id": "kesaro-clinic-viewer",
-  "title": "Kesaro primary care clinic viewer, Taifafeki (J4.1)",
+  "title": "Kesaro paediatric clinic viewer, Taifafeki (J4.1)",
   "kind": "system",
-  "description": "The VHL viewer of a primary care clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection.",
+  "description": "The VHL viewer of a paediatric clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection.",
   "roles": [
     "poc-receiver"
   ],

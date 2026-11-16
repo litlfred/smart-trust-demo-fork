@@ -39,6 +39,44 @@ pages:
       title: Changes
     journeys.md:
       title: Journeys J1 to J4
+    workshop.md:
+      title: "Workshop: modules M1 to M7, T1 to T7"
+      workshop-m1.md:
+        title: "M1 From journey to capabilities"
+      workshop-m2.md:
+        title: "M2 The reference architecture and where you stand"
+      workshop-m3.md:
+        title: "M3 Standards, specifications and the core data set"
+      workshop-m4.md:
+        title: "M4 Trust, credentials and wallets"
+      workshop-m5.md:
+        title: "M5 Governance, decision rights and the legal basis"
+      workshop-m6.md:
+        title: "M6 Doing it together"
+      workshop-m7.md:
+        title: "M7 First move and the investment required"
+      workshop-t1.md:
+        title: "T1 Technical module 1 (placeholder)"
+      workshop-t2.md:
+        title: "T2 Technical module 2 (placeholder)"
+      workshop-t3.md:
+        title: "T3 Technical module 3 (placeholder)"
+      workshop-t4.md:
+        title: "T4 Technical module 4 (placeholder)"
+      workshop-t5.md:
+        title: "T5 Technical module 5 (placeholder)"
+      workshop-t6.md:
+        title: "T6 Technical module 6 (placeholder)"
+      workshop-t7.md:
+        title: "T7 Technical module 7 (placeholder)"
+    module-journey-map.md:
+      title: Module × journey map
+    narrative-discrepancies.md:
+      title: "Narrative review: open discrepancies"
+    country-canvas.md:
+      title: Country Canvas (A3 table sheets)
+    glossary.md:
+      title: "Glossary: terms you will hear"
     countries.md:
       title: Fictional countries
     journey-examples.md:
@@ -84,6 +122,11 @@ menu:
     Changes: changes.html
   Project:
     Journeys J1 to J4: journeys.html
+    Workshop Modules (M and T): workshop.html
+    Module × Journey Map: module-journey-map.html
+    Narrative Discrepancies: narrative-discrepancies.html
+    Country Canvas: country-canvas.html
+    Glossary: glossary.html
     Fictional Countries: countries.html
     Journey Examples: journey-examples.html
     Architecture (ArchiMate): architecture.html
