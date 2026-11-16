@@ -1,7 +1,7 @@
 {
   "$schema": "user-scenario/0.3.0",
   "id": "j4-1-full-history-abroad",
-  "title": "J4.1 — Crossing back: a Taifafeki doctor sees the full history",
+  "title": "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history",
   "description": "Back where it all began, Dr. Anan scans the link, hears the passcode, and sees Somsak’s whole first year — and Onesa is told who looked.",
   "personas": [
     "anan",
@@ -19,7 +19,7 @@
       "title": "A Taifafeki doctor sees the full history",
       "headline": "Back where it all began, Dr. Anan scans the link, hears the passcode, and sees Somsak’s whole first year — and Onesa is told who looked.",
       "when": "T0 + 12 months",
-      "where": "Kesaro primary care clinic",
+      "where": "Kesaro paediatric clinic",
       "touchpoint": "Clinic viewer (scan link + passcode)",
       "preconditions": [
         {
@@ -33,7 +33,7 @@
           ]
         }
       ],
-      "narrative": "Back where it began, Dr Anan sees Somsak at a primary care clinic in\nKesaro. Bounmy shows the QR on his phone and says the passcode. The\nclinic viewer and the Onesan gateway take five steps:\n\n1. The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.\n2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n\nA wrong passcode is refused, and the attempt is still logged in Onesa\n(`TrustDemoJ41WrongPasscode`). If the HCERT does not verify (for example,\nCountry B's DSC is missing from the cached list), there is no digital\nverification. The clinic names the step and the reason (STT-VER-008), does not\nfollow the VHL, and Dr Anan treats whatever the family can show as he\nwould a paper record.",
+      "narrative": "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric\nclinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The\nclinic viewer and the Onesan gateway take five steps:\n\n1. The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.\n2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n\nA wrong passcode is refused, and the attempt is still logged in Onesa\n(`TrustDemoJ41WrongPasscode`). If the HCERT does not verify (for example,\nCountry B's DSC is missing from the cached list), there is no digital\nverification. The clinic names the step and the reason (STT-VER-008), does not\nfollow the VHL, and Dr Anan treats whatever the family can show as he\nwould a paper record.",
       "lead": "anan",
       "experiences": [
         {

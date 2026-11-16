@@ -25,7 +25,7 @@ These are the generic personas of the journeys J1 to J4: the roles that play the
 | [Home clinic EHR](ActorDefinition-TrustDemo.Role.HomeClinicEhr.html) | The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list, imports them as FHIR Immunization resources and evaluates the national schedule (J3). | Lomaru District Health Center EHR (Country B) | Verifier at the home clinic (SMART Trust Receiver) |
 | [National health portal](ActorDefinition-TrustDemo.Role.NationalPortal.html) | The home country's portal that issues each family member's records (IPS, DVCs) as a passcode-protected Verifiable Health Link and hosts the manifests (J4.0), checking the passcode, expiry and consent on each request and logging every access at home (J4.1): the VHL Sharer. | Onesa national health portal and gateway (Country B, XXK) | VHL Sharer (IHE ITI VHL); Issuer of the family's VHLs (SMART Trust Issuer) |
 | [Family phone](ActorDefinition-TrustDemo.Role.FamilyPhone.html) | The one smartphone the family shares, holding one VHL QR per member (J4); holds links, not keys to anyone's records beyond what each link grants. | The family's shared phone | Personal health wallet |
-| [Point-of-care receiver](ActorDefinition-TrustDemo.Role.PocReceiver.html) | The clinic system abroad that scans a VHL, verifies it, fetches the manifest (ITI-YY5) and decrypts the documents (J4.1): the VHL Receiver. | Kesaro primary care clinic viewer, Taifafeki (J4.1) | VHL Receiver (IHE ITI VHL); Receiver of the family's VHLs (SMART Trust Receiver) |
+| [Point-of-care receiver](ActorDefinition-TrustDemo.Role.PocReceiver.html) | The clinic system abroad that scans a VHL, verifies it, fetches the manifest (ITI-YY5) and decrypts the documents (J4.1): the VHL Receiver. | Kesaro paediatric clinic viewer, Taifafeki (J4.1) | VHL Receiver (IHE ITI VHL); Receiver of the family's VHLs (SMART Trust Receiver) |
 {: .grid }
 
 ### External actors
@@ -43,7 +43,7 @@ Each is fictional. Their goals, needs and frustrations are kept in `scenarios/ac
 
 #### Dr. Anan (Taifafeki clinician · birth & follow-up, Taifafeki)
 
-Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional.
+Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.
 
 - **Goal:** Give a non-Taifafeki baby proper care, at birth and when he returns.
 - **Needs:** A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic
@@ -67,7 +67,7 @@ Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B),
 
 #### Khamla (Mother, Onesa)
 
-Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional.
+Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.
 
 - **Goal:** Have Somsak's care recognized at home, without starting over.
 - **Needs:** Proof of the vaccines her baby got abroad; Clear guidance on when to come back; Not to be penalized for giving birth across the border

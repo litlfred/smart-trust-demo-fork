@@ -74,6 +74,22 @@
     "summary": "0 claim drift; 1 minor term, fixed",
     "drifts": [
       "'workforce' read back as 'persons': fixed (卫生人力)"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1974,
+      "drifts": 7,
+      "fixed": 7,
+      "noise": 16,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1217,
+      "drifts": 22,
+      "fixed": 22,
+      "noise": 74,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   }
 }

@@ -82,7 +82,7 @@
         {
           "icon": "syringe",
           "label": "Pentavalent (DTP-HepB-Hib-1)",
-          "detail": "Date: 2025-12-10 • Lot: XXK-2201",
+          "detail": "Date: 2026-01-06 • Lot: XXK-2201",
           "status": {
             "text": "primarySource: true",
             "tone": "success"
@@ -91,7 +91,7 @@
         {
           "icon": "syringe",
           "label": "Bivalent Oral Polio (bOPV-1)",
-          "detail": "Date: 2025-12-10 • Lot: XXK-5531",
+          "detail": "Date: 2026-01-06 • Lot: XXK-5531",
           "status": {
             "text": "primarySource: true",
             "tone": "success"
@@ -100,7 +100,7 @@
         {
           "icon": "syringe",
           "label": "Pneumococcal Conjugate (PCV-1)",
-          "detail": "Date: 2025-12-10 • Lot: XXK-8819",
+          "detail": "Date: 2026-01-06 • Lot: XXK-8819",
           "status": {
             "text": "primarySource: true",
             "tone": "success"
