@@ -39,7 +39,7 @@ msgstr "Somsak naît"
 #: scenarios/user-scenarios/j1-born-abroad.json:19
 msgctxt "scene.label"
 msgid "Taifafeki hospital"
-msgstr "Hôpital thaï"
+msgstr "Hôpital de Taifafeki"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:183
 msgctxt "scene.label"
@@ -84,7 +84,7 @@ msgstr "« Est-ce que quelqu’un, chez nous, croira ces papiers ? »"
 #: scenarios/user-scenarios/j1-born-abroad.json:147
 msgctxt "step.fhirChanges.change"
 msgid "Created in the Taifafeki system (Hep B, BCG)"
-msgstr "Créées dans le système thaï (Hep B, BCG)"
+msgstr "Créées dans le système de Taifafeki (Hep B, BCG)"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:159
 msgctxt "step.fhirChanges.change"
@@ -119,7 +119,7 @@ msgstr "Deux cartes papier rentrent à la maison avec Khamla"
 #: scenarios/user-scenarios/j1-born-abroad.json:19
 msgctxt "step.headline"
 msgid "Somsak gets his birth vaccines in a Taifafeki hospital — and the only thing that will cross the border with him is a pair of paper cards."
-msgstr "Somsak reçoit ses vaccins de naissance dans un hôpital thaï — et la seule chose qui franchira la frontière avec lui est une paire de cartes papier."
+msgstr "Somsak reçoit ses vaccins de naissance dans un hôpital de Taifafeki — et la seule chose qui franchira la frontière avec lui est une paire de cartes papier."
 
 #: scenarios/user-scenarios/j1-born-abroad.json:142
 msgctxt "step.illustration.alt"
@@ -129,7 +129,7 @@ msgstr "À l’hôpital de Kesaro, le Dr Anan présente deux cartes QR signées 
 #: scenarios/user-scenarios/j1-born-abroad.json:54
 msgctxt "step.painPoint"
 msgid "The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system."
-msgstr "Le bébé n’a pas de numéro d’identité thaï, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital thaï."
+msgstr "Le bébé n’a pas de numéro d’identité de Taifafeki, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital de Taifafeki."
 
 #: scenarios/user-scenarios/j1-born-abroad.json:56
 msgctxt "step.policy"

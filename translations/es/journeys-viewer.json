@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "Spanish translation of the journeys viewer and the dpi-h-policy-track workshop. Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 2488/2488.",
+  "label": "trans:es/journeys-viewer",
+  "locale": "es",
+  "sourceFile": "translations/es/journeys-viewer.pot",
+  "potFile": "translations/es/journeys-viewer.pot",
+  "poFile": "translations/es/journeys-viewer.po",
+  "status": {
+    "locale": "es",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:17:00Z",
+    "generator": "agent translation (smart-trust-demo es session, journeys viewer)"
+  },
+  "coverage": {
+    "translated": 2488,
+    "total": 2488,
+    "pct": 100
+  }
+}

@@ -21,11 +21,11 @@ The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list
 
 **In the user scenarios**:
 
-- [J3 — Made official](scenarios.html#j3--made-official-lomaru-district-health-center-4-weeks-later): J3a The clinic confirms the cards are genuine; J3b Taifafeki vaccines are fitted to the Onesan schedule
+- [J3 — A foreign record used for the next vaccine](scenarios.html#j3--a-foreign-record-used-for-the-next-vaccine-lomaru-district-health-center-somsak-is-10-weeks-old): J3a The clinic confirms the cards are genuine; J3b Taifafeki vaccines are fitted to the Onesan schedule
 
 **On the device screens**: [S4 Clinic Referral & GDHCN Verification (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/); [S5 Terminology Adjudication & National Schedule (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
 
 **Lanes and tasks in the business processes**:
 

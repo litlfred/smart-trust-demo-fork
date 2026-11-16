@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "French translation of the ArchiMate pages (model, views, element and relationship pages, drawings). Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 1384/1384.",
+  "label": "trans:fr/archimate",
+  "locale": "fr",
+  "sourceFile": "translations/fr/archimate.pot",
+  "potFile": "translations/fr/archimate.pot",
+  "poFile": "translations/fr/archimate.po",
+  "status": {
+    "locale": "fr",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:53:26Z",
+    "generator": "agent translation (smart-trust-demo fr session, archimate)"
+  },
+  "coverage": {
+    "translated": 1384,
+    "total": 1384,
+    "pct": 100
+  }
+}

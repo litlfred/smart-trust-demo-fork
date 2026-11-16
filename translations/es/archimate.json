@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "Spanish translation of the ArchiMate pages (model, views, element and relationship pages, drawings). Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 1384/1384.",
+  "label": "trans:es/archimate",
+  "locale": "es",
+  "sourceFile": "translations/es/archimate.pot",
+  "potFile": "translations/es/archimate.pot",
+  "poFile": "translations/es/archimate.po",
+  "status": {
+    "locale": "es",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:46:05Z",
+    "generator": "agent translation (smart-trust-demo es session, archimate)"
+  },
+  "coverage": {
+    "translated": 1384,
+    "total": 1384,
+    "pct": 100
+  }
+}

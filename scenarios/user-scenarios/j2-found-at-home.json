@@ -1,7 +1,7 @@
 {
   "$schema": "user-scenario/0.3.0",
   "id": "j2-found-at-home",
-  "title": "J2 — Found at home",
+  "title": "J2 — Found and registered",
   "description": "A health worker registers him offline and records the cards as \"reported, not yet verified\".",
   "personas": [
     "vilay",
@@ -10,7 +10,7 @@
     "bounmy-sengmany"
   ],
   "follows": "j1-born-abroad",
-  "when": "3 weeks later",
+  "when": "Somsak is 7 weeks old",
   "where": "Onesa",
   "country": "Onesa",
   "trustLadder": "record-trust",
@@ -19,10 +19,10 @@
       "id": "J2a",
       "title": "A health worker finds the baby — and reads his cards",
       "headline": "On a routine village visit, Vilay finds a newborn the Onesan system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine.",
-      "when": "T0 + 3 weeks",
+      "when": "T0 + 7 weeks",
       "where": "Catchment Village 04",
       "touchpoint": "Offline phone app (QR scan)",
-      "narrative": "On a routine visit to Village 04, Vilay finds a newborn the Onesan\nsystem does not know exists. Her phone has had no signal for weeks. Khamla\nshows the two cards. The CHW app reads them with **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\nlist. It shows the doses, but checks no signature and saves nothing yet.",
+      "narrative": "Khamla has brought Somsak home to Onesa. On a routine visit to Village 04,\nKhamla's village, Vilay finds a newborn the Onesan\nsystem does not know exists. Her phone has had no signal for weeks. Khamla\nshows the two cards. The CHW app reads them with **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\nlist. It shows the doses, but checks no signature and saves nothing yet.",
       "lead": "vilay",
       "experiences": [
         {
@@ -117,7 +117,7 @@
       "id": "J2b",
       "title": "Registered at home, and referred",
       "headline": "With no signal, Vilay adds Somsak to his household, saves his doses as “reported”, and refers the family to the clinic.",
-      "when": "T0 + 3 weeks",
+      "when": "T0 + 7 weeks",
       "where": "Catchment Village 04",
       "touchpoint": "Offline phone app (household form + referral)",
       "narrative": "On the CHW app's newborn form (structured data capture,\n`TrustDemoHouseholdRegistration`) she adds Somsak to the Sengmany household\n(`TrustDemoHousehold`), with a temporary id. Bounmy confirms the details as\nhead of household. The app saves the doses read from the cards as reported by\nthe family, not verified (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported`:\n`primarySource` false). Vilay refers Somsak to the district health center\n(`TrustDemoJ2Referral`). Everything stays queued on the phone, for 28 days if\nneed be, and syncs when it next reaches a signal.",

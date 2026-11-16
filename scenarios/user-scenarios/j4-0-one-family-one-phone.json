@@ -1,7 +1,7 @@
 {
   "$schema": "user-scenario/0.3.0",
   "id": "j4-0-one-family-one-phone",
-  "title": "J4.0 — Crossing back: one family, one phone",
+  "title": "J4.0 — Continuity across a border: one family, one phone",
   "description": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
   "personas": [
     "bounmy-sengmany",

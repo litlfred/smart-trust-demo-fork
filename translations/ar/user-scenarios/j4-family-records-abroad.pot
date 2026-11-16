@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j4-family-records-abroad\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.611Z\n"
+"POT-Creation-Date: 2026-11-16T11:18:38.285Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:4
 msgctxt "title"
-msgid "J4 — One family, one phone, a history abroad"
+msgid "J4 — Continuity across a border"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:15

@@ -1,0 +1,13 @@
+{
+  "_comment": "The technical track's modules (T1-T7). PLACEHOLDERS (owner, 2026-11-16: 'T have not been made yet, make placeholders for now'): each is paired with the policy module of the same number and day, so the module pages can switch between the two. Replace a placeholder's title, carries and steps when the module is written, and set status to \"ready\".",
+  "track": "Technical track",
+  "modules": [
+    {"id": "T1", "pairedWith": "M1", "day": 1, "title": "Technical module 1", "status": "placeholder"},
+    {"id": "T2", "pairedWith": "M2", "day": 1, "title": "Technical module 2", "status": "placeholder"},
+    {"id": "T3", "pairedWith": "M3", "day": 1, "title": "Technical module 3", "status": "placeholder"},
+    {"id": "T4", "pairedWith": "M4", "day": 2, "title": "Technical module 4", "status": "placeholder"},
+    {"id": "T5", "pairedWith": "M5", "day": 2, "title": "Technical module 5", "status": "placeholder"},
+    {"id": "T6", "pairedWith": "M6", "day": 2, "title": "Technical module 6", "status": "placeholder"},
+    {"id": "T7", "pairedWith": "M7", "day": 2, "title": "Technical module 7", "status": "placeholder"}
+  ]
+}
